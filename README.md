@@ -1,4 +1,4 @@
-### Hi there 👋
+[![Artifact HUB](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/nicholaswilde)](https://artifacthub.io/packages/search?repo=nicholaswilde)
 
 <!--
 **nicholaswilde/nicholaswilde** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
