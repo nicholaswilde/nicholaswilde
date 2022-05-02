@@ -11,7 +11,7 @@
   <img src="https://github-readme-stats.vercel.app/api?username=nicholaswilde&show_icons=true&theme=dark&count_private=true&hide=stars" />
   <a href="https://wakatime.com/@nicholaswilde">
   <img
-     src="https://github-readme-stats.vercel.app/api/wakatime?username=nicholaswilde&show_icons=true&theme=dark&count_private=true&hide=stars"
+     src="https://github-readme-stats.vercel.app/api/wakatime?username=nicholaswilde&show_icons=true&theme=dark&count_private=true&hide=stars&langs_count=5"
      alt="Avinal WakaTime Activity"
   />
   </a>
