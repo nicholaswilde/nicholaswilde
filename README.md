@@ -8,13 +8,11 @@
   <a href="https://quay.io/user/nicholaswilde">
     <img src="https://img.shields.io/static/v1.svg?color=AAAAAA&labelColor=EE0000&logoColor=ffffff&label=Quay&message=nicholaswilde&logo=red%20hat&style=for-the-badge" />
   </a>
-</p>
-<p align="center" target="_blank" href="https://nicholaswilde.io">
   <img src="https://github-readme-stats.vercel.app/api?username=nicholaswilde&show_icons=true&theme=dark&count_private=true&hide=stars" />
-</p>
-<p align="center" href="https://wakatime.com/@nicholaswilde">
+  <a href="https://wakatime.com/@nicholaswilde">
   <img
      src="https://github.com/nicholaswilde/nicholaswilde/blob/main/images/stat.svg"
      alt="Avinal WakaTime Activity"
   />
+  </a>
 </p>
