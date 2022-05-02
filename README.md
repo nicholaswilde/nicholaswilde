@@ -12,7 +12,7 @@
 <p align="center" target="_blank" href="https://nicholaswilde.io">
   <img src="https://github-readme-stats.vercel.app/api?username=nicholaswilde&show_icons=true&theme=dark&count_private=true&hide=stars" />
 </p>
-<p align="center" target="_blank" href="https://wakatime.com/@nicholaswilde">
+<p align="center" href="https://wakatime.com/@nicholaswilde">
   <img
      src="https://github.com/nicholaswilde/nicholaswilde/blob/main/images/stat.svg"
      alt="Avinal WakaTime Activity"
