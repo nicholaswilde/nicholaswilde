@@ -98,6 +98,8 @@ jobs:
           token: ${{ secrets.METRICS_SECRET }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           config_timezone: ${{ secrets.USER_TIMEZONE }} # Set timezone
+          
+          # Options
           user: nicholaswilde
           base: ""
           template: classic
@@ -149,7 +151,13 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          filename: metrics-plugin-wakatime.svg
+          filename: images/metrics-plugin-wakatime.svg
+          # You'll need to setup a personal token in your secrets.
+          token: ${{ secrets.METRICS_SECRET }}
+          # GITHUB_TOKEN is a special auto-generated token used for commits
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          
+          # Options
           base: ""
           plugin_wakatime: yes
           plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, os
