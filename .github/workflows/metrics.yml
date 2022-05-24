@@ -14,7 +14,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          filename: achievements.svg
+          filename: images/achievements.svg
           token: ${{ secrets.METRICS_SECRET }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           user: nicholaswilde
@@ -41,6 +41,7 @@ jobs:
           template: classic
           base: header
           config_timezone: ${{ secrets.USER_TIMEZONE }}
+
   lines:
     runs-on: ubuntu-latest
     steps:
@@ -57,7 +58,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          filename: images/acti_comm.svg
+          filename: images/acti-comm.svg
           # You'll need to setup a personal token in your secrets.
           token: ${{ secrets.METRICS_SECRET }}
           # GITHUB_TOKEN is a special auto-generated token used for commits
@@ -74,7 +75,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          filename: images/iso_calender.svg
+          filename: images/iso-calender.svg
           # You'll need to setup a personal token in your secrets.
           token: ${{ secrets.METRICS_SECRET }}
           # GITHUB_TOKEN is a special auto-generated token used for commits
@@ -111,7 +112,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          filename: images/issue_pr_lang.svg
+          filename: images/issue-pr-lang.svg
           # You'll need to setup a personal token in your secrets.
           token: ${{ secrets.METRICS_SECRET }}
           # GITHUB_TOKEN is a special auto-generated token used for commits
@@ -142,3 +143,14 @@ jobs:
           template: classic
           base: repositories
           config_timezone: ${{ secrets.USER_TIMEZONE }}
+
+  wakatime:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics-plugin-wakatime.svg
+          base: ""
+          plugin_wakatime: yes
+          plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, os
+          plugin_wakatime_token: ${{ secrets.WAKATIME_API_KEY }}
