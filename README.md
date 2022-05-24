@@ -8,11 +8,37 @@
   <a href="https://quay.io/user/nicholaswilde">
     <img src="https://img.shields.io/static/v1.svg?color=AAAAAA&labelColor=EE0000&logoColor=ffffff&label=Quay&message=nicholaswilde&logo=red%20hat&style=for-the-badge" />
   </a>
-  <img src="https://github-readme-stats.vercel.app/api?username=nicholaswilde&show_icons=true&theme=dark&count_private=true&hide=stars" />
-  <a href="https://wakatime.com/@nicholaswilde">
-  <img
-     src="https://github-readme-stats.vercel.app/api/wakatime?username=nicholaswilde&show_icons=true&theme=dark&count_private=true&hide=stars&langs_count=5"
-     alt="Avinal WakaTime Activity"
-  />
-  </a>
 </p>
+
+<a href="https://github.com/nicholaswilde">
+  <img align="center" width="49%" src="./images/header.svg" />
+</a>
+<br/>
+<a href="https://github.com/nicholaswilde">
+  <img align="center" width="49%" src="./images/repositories.svg" />
+</a>
+<a href="https://github.com/nicholaswilde">
+  <img align="center" width="49%" src="./images/acti-comm.svg" />
+</a>
+
+<a href="https://github.com/nicholaswilde">
+  <img align="center" width="49%" src="./images/iso-calender.svg" />
+</a>
+
+<a href="https://github.com/nicholaswilde">
+  <img align="center" width="49%" src="./images/issue-pr-lang.svg" />
+</a>
+
+<a href="https://github.com/nicholaswilde">
+  <img align="center" width="49%" src="./images/metrics-plugin-wakatime.svg" />
+</a>
+<a href="https://github.com/nicholaswilde">
+  <img align="center" width="49%" src="./images/analysis.svg" />
+</a>
+
+<a href="https://github.com/nicholaswilde">
+  <img align="center" width="49%" src="./images/github-habits.svg" />
+</a>
+<a href="https://github.com/nicholaswilde">
+  <img align="center" width="49%" src="./images/achievements.svg" />
+</a>
