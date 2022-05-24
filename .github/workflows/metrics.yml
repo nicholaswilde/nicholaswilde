@@ -53,7 +53,7 @@ jobs:
           base: "repositories"
           plugin_lines: yes
 
-  acti_comm:
+  acti-comm:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
@@ -70,7 +70,7 @@ jobs:
           base: activity, community
           config_timezone: ${{ secrets.USER_TIMEZONE }}
 
-  iso_calender:
+  iso-calender:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
@@ -89,7 +89,7 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
 
-  habits:
+  github-habits:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
@@ -109,7 +109,7 @@ jobs:
           plugin_habits_charts: yes     # Display charts section
           plugin_habits_trim: yes       # Trim unused hours on daily chart
 
-  issue_pr_lang:
+  issue-pr-lang:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
