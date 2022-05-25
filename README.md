@@ -14,7 +14,7 @@
 </p>
 
 <a href="https://github.com/nicholaswilde">
-  <img align="center" width="49%" src="./images/header.svg" />
+  <img align="center" width="360px" src="./images/header.svg" />
 </a>
 
 <br/>
@@ -33,16 +33,16 @@
     <img src="./images/iso-calender.svg" />
   </a>
   <a href="https://github.com/nicholaswilde">
-    <img src="./images/issue-pr-lang.svg" />
+    <img align="center" width="360px" src="./images/issue-pr-lang.svg" />
   </a>
 </p>
 
 <p align="center">
 <a href="https://wakatime.com/@nicholaswilde">
-  <img src="./images/metrics-plugin-wakatime.svg" />
+  <img align="center" width="360px" src="./images/metrics-plugin-wakatime.svg" />
 </a>
 <a href="https://github.com/nicholaswilde">
-  <img src="./images/analysis.svg" />
+  <img align="center" width="360px" src="./images/analysis.svg" />
 </a>
 </p>
 
@@ -51,6 +51,6 @@
     <img src="./images/github-habits.svg" />
   </a>
   <a href="https://github.com/nicholaswilde">
-    <img src="./images/achievements.svg" />
+    <img align="center" width="360px" src="./images/achievements.svg" />
   </a>
 </p>
