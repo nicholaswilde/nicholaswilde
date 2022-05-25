@@ -13,10 +13,12 @@
   </a>
 </p>
 
-<a href="https://github.com/nicholaswilde">
-  <img align="center" width="360px" src="./images/header.svg" />
-</a>
-
+<p align="center">
+  <a href="https://github.com/nicholaswilde">
+    <img align="center" width="360px" src="./images/header.svg" />
+  </a>
+</p>
+                                                               
 <br/>
 
 <p align="center">
