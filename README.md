@@ -30,7 +30,7 @@
 
 <p align="center">
   <a href="https://github.com/nicholaswilde">
-    <img src="./images/iso-calender.svg" />
+    <img align="center" width="360px" src="./images/iso-calender.svg" />
   </a>
   <a href="https://github.com/nicholaswilde">
     <img align="center" width="360px" src="./images/issue-pr-lang.svg" />
