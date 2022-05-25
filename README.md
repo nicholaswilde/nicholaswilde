@@ -1,4 +1,7 @@
 <p align="center">
+  <a href="https://wakatime.com/@nicholaswilde">
+    <img src="https://wakatime.com/badge/user/ded7fdf3-86fe-47db-9d7b-965428efd5f0.svg?style=for-the-badge" />
+  </a>
   <a href="https://artifacthub.io/packages/search?repo=nicholaswilde">
     <img src="https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/nicholaswilde&style=for-the-badge" />
   </a>
