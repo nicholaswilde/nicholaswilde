@@ -29,7 +29,7 @@
   <img align="center" width="49%" src="./images/issue-pr-lang.svg" />
 </a>
 
-<a href="https://github.com/nicholaswilde">
+<a href="https://wakatime.com/@nicholaswilde">
   <img align="center" width="49%" src="./images/metrics-plugin-wakatime.svg" />
 </a>
 <a href="https://github.com/nicholaswilde">
