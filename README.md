@@ -21,10 +21,10 @@
 
 <p align="center">
   <a href="https://github.com/nicholaswilde">
-    <img align="center" max-width="320" src="./images/repositories.svg" />
+    <img align="center" max-width="240" src="./images/repositories.svg" />
   </a>
   <a href="https://github.com/nicholaswilde">
-    <img align="center" max-width="320" src="./images/acti-comm.svg" />
+    <img align="center" max-width="240" src="./images/acti-comm.svg" />
   </a>
 </p>
 
