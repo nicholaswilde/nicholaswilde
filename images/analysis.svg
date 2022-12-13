@@ -109,7 +109,7 @@
                                 <rect x="0" y="0" width="220" height="8" fill="white" rx="5"/>
                             </mask>
                             <rect mask="url(#pr-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                            <rect mask="url(#issues-bar)" x="0" y="0" width="-0.10638297872340426" height="8" fill="#238636"/>
+                            <rect mask="url(#issues-bar)" x="0" y="0" width="0" height="8" fill="#238636"/>
                             <rect mask="url(#issues-bar)" x="-0.10638297872340426" y="0" width="20.638297872340424" height="8" fill="#56d364"/>
                             <rect mask="url(#issues-bar)" x="20.53191489361702" y="0" width="0" height="8" fill="#8B949E"/>
                             <rect mask="url(#issues-bar)" x="20.53191489361702" y="0" width="0" height="8" fill="#c9d1d9"/>
