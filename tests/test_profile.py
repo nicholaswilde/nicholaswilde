@@ -49,5 +49,12 @@ class TestGitHubProfile(unittest.TestCase):
         self.assertIn("test:", content, "Taskfile missing 'test' task")
         self.assertIn("check:", content, "Taskfile missing 'check' task")
 
+    def test_ci_test_workflow_exists_and_looks_valid(self):
+        workflow_path = os.path.join(self.workspace_root, ".github", "workflows", "test.yml")
+        self.assertTrue(os.path.exists(workflow_path), "test.yml CI workflow does not exist")
+        with open(workflow_path, 'r') as f:
+            content = f.read()
+        self.assertIn("task test", content, "test.yml is missing 'task test' execution step")
+
 if __name__ == "__main__":
     unittest.main()
