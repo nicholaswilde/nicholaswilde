@@ -4,6 +4,6 @@ This file tracks all major tracks for the project. Each track has its own detail
 
 ---
 
-- [ ] **Track: Enable Spellchecking**
+- [x] **Track: Enable Spellchecking**
   *Link: [./tracks/enable_spellchecking_20260704/](./tracks/enable_spellchecking_20260704/)*
 
