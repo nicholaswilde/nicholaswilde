@@ -40,5 +40,14 @@ class TestGitHubProfile(unittest.TestCase):
         self.assertIn("## :rocket: Skills Overview", content, "Missing '## :rocket: Skills Overview' section")
         self.assertIn("## :bar_chart: Coding Activity & Metrics", content, "Missing '## :bar_chart: Coding Activity & Metrics' section")
 
+    def test_taskfile_exists_and_has_required_tasks(self):
+        taskfile_path = os.path.join(self.workspace_root, "Taskfile.yaml")
+        self.assertTrue(os.path.exists(taskfile_path), "Taskfile.yaml does not exist")
+        with open(taskfile_path, 'r') as f:
+            content = f.read()
+        self.assertIn("default:", content, "Taskfile missing 'default' task")
+        self.assertIn("test:", content, "Taskfile missing 'test' task")
+        self.assertIn("check:", content, "Taskfile missing 'check' task")
+
 if __name__ == "__main__":
     unittest.main()

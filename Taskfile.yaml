@@ -1,0 +1,17 @@
+version: '3'
+
+tasks:
+  default:
+    desc: List all available tasks
+    cmds:
+      - task --list
+
+  test:
+    desc: Run the python profile validation test suite
+    cmds:
+      - uv run python -m unittest tests/test_profile.py
+
+  check:
+    desc: Run all pre-commit checks
+    cmds:
+      - task: test
