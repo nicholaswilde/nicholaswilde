@@ -27,4 +27,5 @@
 
 ## 6. Local Validation & Testing
 - **uv:** Fast Python package installer and runner, used to run the validation test suite local to the developer's machine (`uv run python -m unittest ...`).
+- **typos:** Source code spellchecker configured via `_typos.toml` to prevent typing mistakes.
 
