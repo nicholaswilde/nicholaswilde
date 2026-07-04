@@ -56,5 +56,11 @@ class TestGitHubProfile(unittest.TestCase):
             content = f.read()
         self.assertIn("task test", content, "test.yml is missing 'task test' execution step")
 
+    def test_linter_configs_exist(self):
+        yamllint_path = os.path.join(self.workspace_root, ".yamllint")
+        markdownlint_path = os.path.join(self.workspace_root, ".markdownlint.yaml")
+        self.assertTrue(os.path.exists(yamllint_path), ".yamllint does not exist")
+        self.assertTrue(os.path.exists(markdownlint_path), ".markdownlint.yaml does not exist")
+
 if __name__ == "__main__":
     unittest.main()
