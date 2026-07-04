@@ -12,13 +12,18 @@ tasks:
       - uv run python -m unittest tests/test_profile.py
 
   check:
-    desc: Run all pre-commit checks
+    desc: Run all pre-commit checks and linters
     cmds:
       - task: test
+      - task: lint
+      - task: markdown-link-check
+
+  lint:
+    desc: Run all linters (spellcheck, yaml-lint, markdown-lint)
+    cmds:
       - task: spellcheck
       - task: yaml-lint
       - task: markdown-lint
-      - task: markdown-link-check
 
   spellcheck:
     desc: Run typos spellcheck tool
