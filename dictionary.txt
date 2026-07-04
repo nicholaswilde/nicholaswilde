@@ -1,0 +1,32 @@
+# Custom words dictionary
+wakatime
+nicholaswilde
+lowlighter
+Shields
+ArtifactHub
+Quay
+yamllint
+markdownlint
+rumdl
+Taskfile
+pyproject
+toml
+venv
+pyc
+GHA
+ GAs
+ GHA's
+ GAs'
+ GHA workflows
+ GHA actions
+ GAs actions
+ GAs workflows
+ GAs build
+ GAs tests
+ GAs validations
+ GAs run
+ GAs checks
+ GAs steps
+ GAs steps list
+ GAs actions list
+ GAs workflows list
