@@ -39,18 +39,18 @@ jobs:
         id: cache-tools
         uses: actions/cache@v4
         with:
-          path: ${{ github.workspace }}/bin
-          key: ${{ runner.os }}-tools-v2
+          path: /home/runner/bin
+          key: ${{ runner.os }}-tools-v3
 
       - name: Install typos and lychee
         if: steps.cache-tools.outputs.cache-hit != 'true'
         run: |
-          mkdir -p ${{ github.workspace }}/bin
-          curl -LsSf https://github.com/crate-ci/typos/releases/download/v1.23.6/typos-v1.23.6-x86_64-unknown-linux-musl.tar.gz | tar zxf - -C ${{ github.workspace }}/bin
-          curl -LsSf https://github.com/lycheeverse/lychee/releases/download/v0.14.3/lychee-v0.14.3-x86_64-unknown-linux-gnu.tar.gz | tar zxf - -C ${{ github.workspace }}/bin
+          mkdir -p /home/runner/bin
+          curl -LsSf https://github.com/crate-ci/typos/releases/download/v1.23.6/typos-v1.23.6-x86_64-unknown-linux-musl.tar.gz | tar zxf - -C /home/runner/bin
+          curl -LsSf https://github.com/lycheeverse/lychee/releases/download/v0.14.3/lychee-v0.14.3-x86_64-unknown-linux-gnu.tar.gz | tar zxf - -C /home/runner/bin
 
       - name: Add local bin to PATH
-        run: echo "${{ github.workspace }}/bin" >> $GITHUB_PATH
+        run: echo "/home/runner/bin" >> $GITHUB_PATH
 
       - name: Cache npm global cache
         uses: actions/cache@v4
