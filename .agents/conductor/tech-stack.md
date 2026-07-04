@@ -21,3 +21,7 @@
   - `GITHUB_TOKEN`: Standard repository token used by actions to commit generated SVGs back to the repo.
   - `USER_TIMEZONE`: Timezone parameter for local time metric calculations.
   - `WAKATIME_API_KEY`: API key for accessing WakaTime metrics.
+
+## 6. Local Validation & Testing
+- **uv:** Fast Python package installer and runner, used to run the validation test suite local to the developer's machine (`uv run python -m unittest ...`).
+

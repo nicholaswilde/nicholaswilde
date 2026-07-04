@@ -1,0 +1,6 @@
+[project]
+name = "nicholaswilde-profile"
+version = "0.1.0"
+description = "Nicholas Wilde's GitHub Profile and Metrics configuration"
+requires-python = ">=3.11"
+dependencies = []
