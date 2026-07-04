@@ -10,8 +10,8 @@
 - [x] Task: Format and style README.md [466d3cf]
     - [x] Update `README.md` to follow the visual guidelines (visual hierarchy, Shields.io badges, correct alignment).
     - [x] Ensure all references to SVGs in `images/` match the existing files.
-- [~] Task: Verify links and image paths
-    - [~] Run the validation tests and confirm they pass (Green phase).
+- [x] Task: Verify links and image paths [67e6d94]
+    - [x] Run the validation tests and confirm they pass (Green phase).
 - [ ] Task: Conductor - User Manual Verification 'Phase 2: README Structure & Styling' (Protocol in workflow.md)
 
 ## Phase 3: Workflow Audit & Optimization
