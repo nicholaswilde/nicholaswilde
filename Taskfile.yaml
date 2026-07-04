@@ -15,3 +15,27 @@ tasks:
     desc: Run all pre-commit checks
     cmds:
       - task: test
+      - task: spellcheck
+      - task: yaml-lint
+      - task: markdown-lint
+      - task: markdown-link-check
+
+  spellcheck:
+    desc: Run typos spellcheck tool
+    cmds:
+      - typos
+
+  yaml-lint:
+    desc: Run yamllint on YAML configuration files
+    cmds:
+      - yamllint .
+
+  markdown-lint:
+    desc: Run markdownlint on README
+    cmds:
+      - npx -y markdownlint-cli README.md
+
+  markdown-link-check:
+    desc: Run lychee on README to verify links
+    cmds:
+      - lychee README.md
