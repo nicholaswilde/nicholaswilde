@@ -4,9 +4,6 @@ This file tracks all major tracks for the project. Each track has its own detail
 
 ---
 
-- [x] **Track: Add Linting Standards Configuration**
-  *Link: [./tracks/linting_configuration_20260704/](./tracks/linting_configuration_20260704/)*
-
 - [ ] **Track: Enable Spellchecking**
   *Link: [./tracks/enable_spellchecking_20260704/](./tracks/enable_spellchecking_20260704/)*
 
