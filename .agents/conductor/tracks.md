@@ -4,9 +4,6 @@ This file tracks all major tracks for the project. Each track has its own detail
 
 ---
 
-- [x] **Track: Introduce Taskfile.yaml**
-  *Link: [./tracks/introduce_taskfile_20260704/](./tracks/introduce_taskfile_20260704/)*
-
 - [ ] **Track: Configure Automated CI Verification**
   *Link: [./tracks/ci_verification_20260704/](./tracks/ci_verification_20260704/)*
 
