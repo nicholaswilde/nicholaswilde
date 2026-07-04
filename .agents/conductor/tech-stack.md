@@ -6,6 +6,7 @@
 ## 2. Automation & Workflow
 - **GitHub Actions:** CI/CD runner to automate execution of metrics updates.
 - **lowlighter/metrics:** GitHub Action used to fetch statistics, generate SVGs, and automatically commit them to the repository.
+- **go-task (Taskfile):** Task runner to standardize common development tasks (e.g. running tests locally).
 
 ## 3. Formats & Markup
 - **Markdown (GFM):** Document format for `README.md`.
