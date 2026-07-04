@@ -36,9 +36,9 @@ class TestGitHubProfile(unittest.TestCase):
             content = f.read()
         
         # We expect specific headers to structure the profile README
-        self.assertIn("## About Me", content, "Missing '## About Me' section")
-        self.assertIn("## Skills Overview", content, "Missing '## Skills Overview' section")
-        self.assertIn("## Coding Activity & Metrics", content, "Missing '## Coding Activity & Metrics' section")
+        self.assertIn("## :wave: About Me", content, "Missing '## :wave: About Me' section")
+        self.assertIn("## :rocket: Skills Overview", content, "Missing '## :rocket: Skills Overview' section")
+        self.assertIn("## :bar_chart: Coding Activity & Metrics", content, "Missing '## :bar_chart: Coding Activity & Metrics' section")
 
 if __name__ == "__main__":
     unittest.main()

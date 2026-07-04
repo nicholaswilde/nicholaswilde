@@ -6,7 +6,7 @@
   </a>
 </p>
 
-## About Me
+## :wave: About Me
 
 Welcome to my profile! I am a passionate open-source developer focused on automating build pipelines, infrastructure as code, and creating reliable container images.
 
@@ -25,7 +25,7 @@ Welcome to my profile! I am a passionate open-source developer focused on automa
   </a>
 </p>
 
-## Skills Overview
+## :rocket: Skills Overview
 
 I work with Docker, Kubernetes, Linux, Python, Go, and CI/CD pipelines.
 
@@ -37,11 +37,11 @@ I work with Docker, Kubernetes, Linux, Python, Go, and CI/CD pipelines.
   <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" />
 </p>
 
-## Coding Activity & Metrics
+## :bar_chart: Coding Activity & Metrics
 
 Below are my automatically updated GitHub activity statistics, languages, and WakaTime coding metrics:
 
-### GitHub Statistics & Repositories
+### :octocat: GitHub Statistics & Repositories
 
 <p align="center">
   <a href="https://github.com/nicholaswilde">
@@ -67,7 +67,7 @@ Below are my automatically updated GitHub activity statistics, languages, and Wa
   </a>
 </p>
 
-### Contribution History & Habits
+### :calendar: Contribution History & Habits
 
 <p align="center">
   <a href="https://github.com/nicholaswilde">
@@ -78,7 +78,7 @@ Below are my automatically updated GitHub activity statistics, languages, and Wa
   </a>
 </p>
 
-### WakaTime Coding Activity
+### :computer: WakaTime Coding Activity
 
 <p align="center">
   <a href="https://wakatime.com/@nicholaswilde">
@@ -86,7 +86,7 @@ Below are my automatically updated GitHub activity statistics, languages, and Wa
   </a>
 </p>
 
-### Achievements
+### :trophy: Achievements
 
 <p align="center">
   <a href="https://github.com/nicholaswilde">
