@@ -7,6 +7,8 @@
 - **GitHub Actions:** CI/CD runner to automate execution of metrics updates.
 - **lowlighter/metrics:** GitHub Action used to fetch statistics, generate SVGs, and automatically commit them to the repository.
 - **go-task (Taskfile):** Task runner to standardize common development tasks (e.g. running tests locally).
+- **yamllint-rs:** Fast YAML linting tool configured via `.yamllint` to validate workflow syntax.
+- **rumdl (markdown lint CLI):** Markdown linter configured via `.markdownlint.yaml` to enforce style standards.
 
 ## 3. Formats & Markup
 - **Markdown (GFM):** Document format for `README.md`.
