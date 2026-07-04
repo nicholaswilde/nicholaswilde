@@ -54,7 +54,7 @@ class TestGitHubProfile(unittest.TestCase):
         self.assertTrue(os.path.exists(workflow_path), "test.yml CI workflow does not exist")
         with open(workflow_path, 'r') as f:
             content = f.read()
-        self.assertIn("task test", content, "test.yml is missing 'task test' execution step")
+        self.assertIn("task check", content, "test.yml is missing 'task check' execution step")
 
     def test_linter_configs_exist(self):
         yamllint_path = os.path.join(self.workspace_root, ".yamllint")
