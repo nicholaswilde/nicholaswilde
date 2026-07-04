@@ -62,5 +62,9 @@ class TestGitHubProfile(unittest.TestCase):
         self.assertTrue(os.path.exists(yamllint_path), ".yamllint does not exist")
         self.assertTrue(os.path.exists(markdownlint_path), ".markdownlint.yaml does not exist")
 
+    def test_spellcheck_configs_exist(self):
+        typos_path = os.path.join(self.workspace_root, "_typos.toml")
+        self.assertTrue(os.path.exists(typos_path), "_typos.toml does not exist")
+
 if __name__ == "__main__":
     unittest.main()

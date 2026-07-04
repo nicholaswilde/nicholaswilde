@@ -1,0 +1,12 @@
+[files]
+extend-exclude = [
+  ".git",
+  ".venv",
+  "uv.lock"
+]
+
+[default]
+extend-ignore-re = [
+  # Ignore commit hashes / hex IDs
+  "[0-9a-f]{40}"
+]
