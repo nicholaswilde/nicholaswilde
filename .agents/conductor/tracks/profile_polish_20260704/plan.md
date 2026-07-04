@@ -1,9 +1,9 @@
 # Implementation Plan - Profile Polish and Metrics Integration
 
 ## Phase 1: Setup Validation Tools & Tests
-- [ ] Task: Create validation test script
-    - [ ] Write `tests/test_profile.py` using Python `unittest` to check that all images referenced in README exist in `images/` and that the GitHub Actions workflow is valid YAML.
-    - [ ] Run the tests and confirm failure (Red phase).
+- [x] Task: Create validation test script [7e81b5f]
+    - [x] Write `tests/test_profile.py` using Python `unittest` to check that all images referenced in README exist in `images/` and that the GitHub Actions workflow is valid YAML.
+    - [x] Run the tests and confirm failure (Red phase).
 - [ ] Task: Conductor - User Manual Verification 'Phase 1: Setup Validation Tools & Tests' (Protocol in workflow.md)
 
 ## Phase 2: README Structure & Styling
