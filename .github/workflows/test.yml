@@ -22,6 +22,7 @@ jobs:
         uses: astral-sh/setup-uv@v3
         with:
           version: "latest"
+          enable-cache: true
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -34,5 +35,30 @@ jobs:
           version: 3.x
           repo-token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Run verification tests
-        run: task test
+      - name: Cache external tools
+        id: cache-tools
+        uses: actions/cache@v4
+        with:
+          path: ${{ github.workspace }}/bin
+          key: ${{ runner.os }}-tools-v2
+
+      - name: Install typos and lychee
+        if: steps.cache-tools.outputs.cache-hit != 'true'
+        run: |
+          mkdir -p ${{ github.workspace }}/bin
+          curl -LsSf https://github.com/crate-ci/typos/releases/download/v1.23.6/typos-v1.23.6-x86_64-unknown-linux-musl.tar.gz | tar zxf - -C ${{ github.workspace }}/bin typos
+          curl -LsSf https://github.com/lycheeverse/lychee/releases/download/v0.14.3/lychee-v0.14.3-x86_64-unknown-linux-gnu.tar.gz | tar zxf - -C ${{ github.workspace }}/bin lychee
+
+      - name: Add local bin to PATH
+        run: echo "${{ github.workspace }}/bin" >> $GITHUB_PATH
+
+      - name: Cache npm global cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-npm-cache
+          restore-keys: |
+            ${{ runner.os }}-npm-cache-
+
+      - name: Run verification checks
+        run: task check
