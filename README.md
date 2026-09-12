@@ -78,6 +78,14 @@ Below are my automatically updated GitHub activity statistics, languages, and Wa
   </a>
 </p>
 
+### :cityscape: Git City (Skyline)
+
+<p align="center">
+  <a href="https://github.com/nicholaswilde">
+    <img align="center" width="720px" src="./images/skyline.svg" alt="Git City Skyline" />
+  </a>
+</p>
+
 ### :computer: WakaTime Coding Activity
 
 <p align="center">
