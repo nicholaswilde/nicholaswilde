@@ -18,7 +18,7 @@ jobs:
           token: ${{ secrets.METRICS_SECRET }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           user: nicholaswilde
-          base: achievements
+          base: ""
           plugin_achievements: yes
           plugin_achievements_threshold: B      # Display achievements with rank B or higher
           plugin_achievements_secrets: yes      # Display unlocked secrets achievements
@@ -110,7 +110,7 @@ jobs:
           template: classic
           plugin_habits: yes
           plugin_habits_from: 200       # Use 200 events to compute habits
-          plugin_habits_days: 14        # Keep only events from last 14 days
+          plugin_habits_days: 30        # Keep only events from last 14 days
           plugin_habits_charts: yes     # Display charts section
           plugin_habits_trim: yes       # Trim unused hours on daily chart
 
@@ -199,6 +199,6 @@ jobs:
           base: ""
           plugin_skyline: yes
           plugin_skyline_year: current
-          plugin_skyline_frames: 60
+          plugin_skyline_frames: 10
           plugin_skyline_quality: 1
 
