@@ -26,6 +26,7 @@ jobs:
           plugin_achievements_limit: 0          # Display all unlocked achievements (no limit)
 
   github-metrics:
+    needs: achievements
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
@@ -43,6 +44,7 @@ jobs:
           config_timezone: ${{ secrets.USER_TIMEZONE }}
 
   lines:
+    needs: github-metrics
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
@@ -54,6 +56,7 @@ jobs:
           plugin_lines: yes
 
   acti-comm:
+    needs: lines
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
@@ -71,6 +74,7 @@ jobs:
           config_timezone: ${{ secrets.USER_TIMEZONE }}
 
   iso-calender:
+    needs: acti-comm
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
@@ -90,6 +94,7 @@ jobs:
           plugin_isocalendar_duration: half-year
 
   github-habits:
+    needs: iso-calender
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
@@ -110,6 +115,7 @@ jobs:
           plugin_habits_trim: yes       # Trim unused hours on daily chart
 
   issue-pr-lang:
+    needs: github-habits
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
@@ -130,6 +136,7 @@ jobs:
 
 
   repositories:
+    needs: issue-pr-lang
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
@@ -147,6 +154,7 @@ jobs:
           config_timezone: ${{ secrets.USER_TIMEZONE }}
 
   wakatime:
+    needs: repositories
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
@@ -164,6 +172,7 @@ jobs:
           plugin_wakatime_token: ${{ secrets.WAKATIME_API_KEY }}
           
   analysis:
+    needs: wakatime
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
@@ -179,6 +188,7 @@ jobs:
           plugin_followup_indepth: yes
 
   skyline:
+    needs: analysis
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
